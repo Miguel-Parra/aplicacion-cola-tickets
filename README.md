@@ -1,11 +1,52 @@
-# 
+# COLA DE TICKETS
+
+## **FUNCIONALIDAD**
+
+<br>
+
+Esta aplicación permite:
+
+- Asignar tickets a los clientes.
+- Crear escritorios en los que se podrá atender los tickets.
+- Notificar a todos los escritorios conectados la cantidad de tickets por atender.
+- Mostrar en una pantalla general los últimos 4 tickets que estan siendo atendidos en los respectivos escritorios.
+- Notificar con un sonido cada vez que un escritorio empiece la atención de un nuevo ticket. **Esta funcionalidad por el momento esta disponible y probada en el navegador Mozilla Firefox.**
+
+<br>
+
+## **TECNOLOGÍAS**
+
+<br>
+
+Para su desarrollo se utilizó:
+
+- Clases del ES6
+- Express.js para crear el Webserver.
+- Socket.io para crear y gestionar el servidor Websocket.
 
 
-Uso de Clases del ES6
-Asignar Tickets
-Leer Tickets
-Notificaciones.
-En resumen, crearemos una aplicación de cola
+<br>
+
+## **APLICACIÓN HEROKU**
+
+<br>
+
+La aplicación se encuentra desplegada en: 
+
+<br>
+
+## **RECOMENDACIONES**
+
+<br>
+
+Recuerden reconstruir los módulos de Node con:
+```
+npm install 
+```
+Y para correr la aplicación con:
+```
+node app.js
+```
 
 
 Crearemos una aplicación que permita gestionar una cola de tickets, pero sin autenticación, Se hará que suene cuando se cambie de ticket, que pueda manejar cualquier cambio de escritorios, que la información sea persistente en el caso de que el backend se caiga
