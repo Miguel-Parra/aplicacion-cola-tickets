@@ -41,6 +41,9 @@ https://node-cola-tickets.herokuapp.com/
 
 <br>
 
+Habilitar la opción de resproducción de audio y video en el navegador Mozilla Firefox para escuchar el sonido al tener una nueva notificacón.
+
+
 Recuerden reconstruir los módulos de Node con:
 ```
 npm install 
