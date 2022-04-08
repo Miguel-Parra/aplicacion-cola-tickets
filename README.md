@@ -31,7 +31,9 @@ Para su desarrollo se utilizó:
 
 <br>
 
-La aplicación se encuentra desplegada en: 
+La aplicación se encuentra desplegada en:
+
+https://node-cola-tickets.herokuapp.com/ 
 
 <br>
 
@@ -47,6 +49,3 @@ Y para correr la aplicación con:
 ```
 node app.js
 ```
-
-
-Crearemos una aplicación que permita gestionar una cola de tickets, pero sin autenticación, Se hará que suene cuando se cambie de ticket, que pueda manejar cualquier cambio de escritorios, que la información sea persistente en el caso de que el backend se caiga
